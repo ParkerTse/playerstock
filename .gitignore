@@ -1,0 +1,26 @@
+# Maven build output
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# Spring Boot
+*.log
+/logs/
+
+# Environment / secrets
+*.env
+application-local.properties
+application-secret.properties
+trading-platform/src/main/resources/application.properties
+
+# OS
+.DS_Store
+Thumbs.db

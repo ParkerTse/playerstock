@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  postgres-db:
+    image: postgres:15
+    container_name: sports_market_db
+    environment:
+      POSTGRES_USER: market_user
+      POSTGRES_PASSWORD: market_password
+      POSTGRES_DB: sports_stock_market
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

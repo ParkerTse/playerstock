@@ -2,7 +2,7 @@
 
 A fantasy trading platform where NBA players are stocks. Buy, sell, and short player shares whose prices move on a bonding curve driven by real trades. Prices are seeded from actual ESPN stats.
 
-> **Demo account:** `demo_trader` / `demo1234` — starts with $10,000 virtual cash.
+> Register a free account from the login screen — you start with $10,000 in virtual cash.
 
 ---
 
@@ -78,16 +78,6 @@ A fantasy trading platform where NBA players are stocks. Buy, sell, and short pl
    Visit [http://localhost:8080](http://localhost:8080)
 
 On first startup, the app automatically imports all active NBA players from ESPN and prices them based on their season stats. This takes about 30 seconds — watch the terminal for progress.
-
----
-
-## Demo Account
-
-| Username | Password | Starting Balance |
-|---|---|---|
-| `demo_trader` | `demo1234` | $10,000 |
-
-Or register your own account from the login screen.
 
 ---
 
